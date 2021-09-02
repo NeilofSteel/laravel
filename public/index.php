@@ -31,7 +31,7 @@ if (file_exists(__DIR__.'/../storage/framework/maintenance.php')) {
 |
 */
 
-require __DIR__.'/../structure.php';
+require_once __DIR__.'/../bootstrap/structure.php';
 require __DIR__.'/../vendor/autoload.php';
 
 /*
